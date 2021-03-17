@@ -1,6 +1,6 @@
 {
   "name": "electron-dummy-wrapper-4",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Angular 11 with Electron (Typescript + SASS + Hot Reload)",
   "repository": "https://github.com/fredoffcloud/ElectronDummyWrapper4",
   "homepage": "https://github.com/fredoffcloud/ElectronDummyWrapper4",
@@ -49,9 +49,10 @@
     "electron-updater": "4.3.8"
   },
   "devDependencies": {
+    "conventional-changelog-cli": "2.1.1",
+    "electron": "11.2.0",
     "electron-builder": "22.9.1",
     "electron-reload": "1.5.0",
-    "electron": "11.2.0",
     "typescript": "4.2.3"
   },
   "engines": {
