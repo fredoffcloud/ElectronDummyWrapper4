@@ -1,11 +1,11 @@
 {
-  "name": "angular-electron",
-  "version": "0.0.1",
+  "name": "electron-dummy-wrapper-4",
+  "version": "0.0.0",
   "description": "Angular 11 with Electron (Typescript + SASS + Hot Reload)",
-  "homepage": "https://github.com/maximegris/angular-electron",
+  "homepage": "https://github.com/fredoff/ElectronDummyWrapper4",
   "author": {
-    "name": "Maxime GRIS",
-    "email": "maxime.gris@gmail.com"
+    "name": "Fredrik Reinholdsson",
+    "email": "fredrik.reinholdsson@gmail.com"
   },
   "keywords": [
     "angular",
