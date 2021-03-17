@@ -32,7 +32,7 @@ function createWindow(): BrowserWindow {
   });
 
   if (serve) {
-
+    // UTVECKLING
     win.webContents.openDevTools();
 
     require('electron-reload')(__dirname, {
@@ -42,15 +42,17 @@ function createWindow(): BrowserWindow {
     win.setBackgroundColor('#fff');
 
   } else {
+    // PRODUKTION
     win.loadURL(url.format({
       pathname: path.join(__dirname, 'dist/index.html'),
       protocol: 'file:',
       slashes: true
     }));
-     
+    win.setBackgroundColor('#fff');
     win.on('ready-to-show', () => { 
       autoUpdater.checkForUpdatesAndNotify();
-    });    
+    });
+
   }
 
   // Emitted when the window is closed.
