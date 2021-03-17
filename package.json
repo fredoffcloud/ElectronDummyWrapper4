@@ -2,7 +2,8 @@
   "name": "electron-dummy-wrapper-4",
   "version": "0.0.2",
   "description": "Angular 11 with Electron (Typescript + SASS + Hot Reload)",
-  "homepage": "https://github.com/fredoff/ElectronDummyWrapper4",
+  "repository": "https://github.com/fredoffcloud/ElectronDummyWrapper4",
+  "homepage": "https://github.com/fredoffcloud/ElectronDummyWrapper4",
   "author": {
     "name": "Fredrik Reinholdsson",
     "email": "fredrik.reinholdsson@gmail.com"
